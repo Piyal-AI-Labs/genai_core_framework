@@ -27,4 +27,4 @@ class SentenceEmbedding(BaseEmbedding):
         
         return self.model.encode(
             texts
-        ).to_list()
+        ).tolist()
