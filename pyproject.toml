@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "genai-core-framework"
+version = "0.1.0"
+description = "Reusable toolkit for Generative AI research"
+requires-python = ">=3.11"
+
+[tool.setuptools.packages.find]
+include = ["genai_core*"]
